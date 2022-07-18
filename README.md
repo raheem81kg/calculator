@@ -17,5 +17,5 @@ There was not much learning going on in this project, however, it has further ce
 
 [Project brief](https://www.theodinproject.com/lessons/foundations-calculator) 
 
-[Live App](https://raheem81kg.github.io/calculator)*
+[Live App](https://raheem81kg.github.io/calculator)
 ![calculator img](https://github.com/raheem81kg/calculator/blob/main/assets/calculator-preview.png "App Preview")
