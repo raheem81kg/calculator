@@ -1,4 +1,6 @@
 # Calculator App
+### Live Preview
+https://raheem81kg.github.io/calculator
 
 ### Features
 This is a simple UI calculator app. It is responsive across mobile and desktop.
@@ -11,7 +13,5 @@ This is a simple UI calculator app. It is responsive across mobile and desktop.
 
 ### What I learned
 There was not much learning going on in this project, however, it has further cemented my understanding of Javascript logic.
-
-[Live App](https://raheem81kg.github.io/calculator)
 
 ![calculator img](https://github.com/raheem81kg/calculator/blob/main/assets/calculator-preview.png "App Preview")
