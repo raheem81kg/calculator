@@ -1,0 +1,163 @@
+:root {
+    --primary-dark: #333;
+    --secondary-dark: #6e6e76;
+    --primary-light: #ededed;
+    --secondary-light: #fefefe;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 1.15rem;
+    font-family: "Helvetica Neue", "Noto Sans KR", sans-serif;
+    text-align: center;
+    color: var(--primary-dark);
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+}
+
+#title {
+    font-size: 5rem;
+}
+
+#calculator {
+    width: 37%;
+    height: 78%;
+    background-color: black;
+    background-color: var(--primary-dark);
+    border-radius: 1.2rem;
+    overflow: hidden;
+    box-shadow: rgba(50, 50, 93, 0.2) 0px 13px 27px -5px, rgba(0, 0, 0, 0.25) 0px 8px 16px -8px;
+}
+
+.buttons {
+    display: flex;
+    height: 75%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.display {
+    height: 25%;
+    padding: 5.5px;
+    font-size: 3rem;
+    color: var(--secondary-light);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1;
+    cursor: pointer;
+}
+
+.button:hover {
+    filter: brightness(95%);
+}
+
+.operand,
+.clear {
+    background-color: var(--secondary-light);
+}
+
+.operator {
+    background-color: var(--primary-light);
+    transition-duration: 0.2s;
+}
+
+.operator:focus {
+    box-shadow: 0px 0px 0px 1px var(--primary-dark) inset;
+}
+
+.equal {
+    flex-basis: 80%;
+    background-color: rgb(248, 177, 44);
+}
+
+[data-button="/"] {
+    flex-basis: 20%;
+}
+
+button {
+    border: none;
+    box-sizing: border-box;
+    font-size: 1.15rem;
+}
+
+@media screen and (max-width: 1400px) {
+    #calculator {
+        width: 43%;
+    }
+
+    button {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #calculator {
+        width: 52%;
+    }
+
+    button {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    #calculator {
+        width: 58%;
+    }
+
+    button {
+        font-size: 0.95rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #calculator {
+        width: 62%;
+    }
+
+    button {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #calculator {
+        width: 70%;
+        height: 70%;
+    }
+
+    button {
+        font-size: 0.85rem;
+    }
+
+    #title {
+        font-size: 4.5rem;
+    }
+}
