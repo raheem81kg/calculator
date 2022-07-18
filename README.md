@@ -1,6 +1,8 @@
 # Calculator
 
 ### Features
+This is a simple calculator app with some UI. It responsive across most devices.
+
 <div align="center">
 
 <img src="https://img.shields.io/badge/-HTML-ff6600?style=for-the-badge&logo=html5&logoColor=ff6600&labelColor=282828">
@@ -9,9 +11,6 @@
 
 </div>
 </p><br>
-
-This is a simple calculator app with some UI. It responsive across most devices.
-
 
 ### What I learned
 There was not much learning going on in this project, however, it has further cemented my understanding of javascript logic.
